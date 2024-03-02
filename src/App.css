@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(101, 101, 244);
+}
+
+.blue{
+  color:  rgb(75, 153, 248);
+}
+
+.bold{
+  font-weight: 400;
+}
+
+.block{
+padding: 50px 0px;
+/* margin: 20px 0px; */
+}
+
+#navbar{
+  width: 100%;
+  height:70px;
+  background-color: white;
+  color: rgb(101, 101, 244);
+  padding: 10px 15px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo{
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-menu{
+  display: flex;
+  list-style: none;
+}
+
+.menu-items{
+  padding: 12px;
+  cursor: pointer;
+}
+
+.menu-items:hover{
+  color: rgb(54, 54, 240);
+}
+
+#hero{
+ position: relative;
+  height: 92vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-heading{
+  font-size: 68px;
+  position: absolute;
+  top:100px;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.hero-img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+h1{
+  margin: 30px;
+  font-size: 44px;
+}
+
+#hiring-info{
+  background-color: #ffffff;
+}
+
+#hiring-heading{
+  width: 700px;
+  font-weight: 500;
+  margin: auto;
+ padding-bottom: 40px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.card-layout{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+padding: 0px 35px;
+flex-wrap: nowrap;
+}
+
+.card-hiring{
+  width: 23%;
+  padding: 15px 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+}
+
+.card-logo{
+  font-size: 46px;
+  color: rgb(75, 153, 248);
+}
+
+.card-services{
+  width: 28%;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 16px;
+  margin: 15px 0px;
+  text-align: left;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.card-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  padding: 10px;
+ background-color: rgb(75, 153, 248) ;
+ cursor: pointer;
+ color: white;
+ border-radius: 2px;
+ margin-top: 15px;
+}
+
+.card-btn:hover{
+  background-color:  rgb(40, 136, 255);
+}
+
+.card-container-light{
+ width: 100%;
+ height: 180px;
+ padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  color: #333333;
+  text-align: left;
+}
+
+.card-container-dark{
+  width: 100%;
+  padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   font-size: 16px;
+   color: white;
+   text-align: left;
+ }
+
+img{
+  width: 100%;
+  height: 200px;
+}
+
+.about-container{
+  display: flex;
+}
+
+h2{
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.left{
+  width: 40%;
+  background-color: #F5F5F5;
+}
+
+.right{
+  width: 60%;
+  padding:0px 10px ;
+}
+
+h3{
+  padding-bottom: 15px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 10px 0px;
+}
+
+#footer{
+  width: 100%;
+  color: white;
+  margin-bottom: 0;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+
+.footer-card{
+  height: 100px;
+}
+
+.footer-logo{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-heading{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+#socials{
+  width: 300px;
+}
+
+#address{
+  width: 500px;
+}
+
+.whatsapp{
+  color: #25d366;
+}
+
+.facebook{
+color: #1877f2;
+}
+
+.linkedin{
+color:  #0a66c2;
+}
+
+.twitter{
+  color: #1da1f2;
+}
